@@ -11,11 +11,11 @@
 - github
 
 ```
-git clone https://github.com/kaze-k/vim.git
+git clone https://github.com/kaze-k/vim.git ~/.vim
 ```
 
 - gitee
 
 ```
-git clone https://gitee.com/kaze-k/vim.git
+git clone https://gitee.com/kaze-k/vim.git ~/.vim
 ```
