@@ -10,11 +10,14 @@
 " initialize
 """"""""""""""""""""""""""""""
 let g:nvim_path="~/.config/nvim"
+let g:vim_path="~/.config/vim"
 
 if has("nvim")
-    execute 'set runtimepath+=' . g:nvim_path
+    execute "set runtimepath+=" . g:nvim_path
     execute "source " . g:nvim_path . "/init.vim"
     finish
+else
+    execute "set runtimepath+=" . g:vim_path
 endif
 
 """"""""""""""""""""""""""""""
